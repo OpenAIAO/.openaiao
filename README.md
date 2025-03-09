@@ -44,10 +44,10 @@ AIAO defines a structured metadata format (JSON-LD) that allows AI agents to:
 ```
 
 ## Get Started
-### Implement AIAO on Your Website
+### Implement AIAO on Your Website (Coming Soon)
 Add an `/aiao/metadata` endpoint with structured JSON-LD data. Refer to the [AIAO API Starter Guide](https://github.com/OpenAIAO/docs) for setup instructions.
 
-### Build an AI Agent that Uses AIAO
+### Build an AI Agent that Uses AIAO (Coming Soon)
 Develop an AI assistant that reads AIAO metadata and automates tasks. Refer to the [Python AI Agent Example](https://github.com/OpenAIAO/ai-agent) for guidance.
 
 ### Contribute to the Open Standard
@@ -56,7 +56,7 @@ AIAO is a community-driven initiative. Join the discussion and contribute to imp
 ## Join the Movement
 Website: [https://openaiao.org](https://openaiao.org)  
 GitHub: [https://github.com/OpenAIAO](https://github.com/OpenAIAO)  
-Twitter (coming soon): [https://twitter.com/openaiao](https://twitter.com/openaiao)  
+X (coming soon): [https://x.com/openaiao](https://x.com/openaiao)  
 
 ## License
 AIAO is open-source under the Apache 2.0 License. Contributions are welcome.
