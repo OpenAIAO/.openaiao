@@ -15,48 +15,62 @@ AIAO defines a structured metadata format (JSON-LD) that allows AI agents to:
 - Automate tasks like booking appointments and placing orders.
 - Interact with industry-specific services, including e-commerce, healthcare, and finance.
 
-## How It Works
-1. AIAO-optimized websites expose structured metadata at `/aiao/metadata`.
-2. AI agents query this metadata to discover available actions.
-3. Automation happens as AI agents execute tasks via defined AIAO endpoints.
+## AIAO and Schema.org Integration
+AIAO leverages [Schema.org](https://schema.org/) to ensure compatibility with existing structured data standards. By aligning with Schema.org, AIAO metadata can be easily adopted by search engines, AI agents, and automation tools, enhancing interoperability across platforms.
 
-### Example AIAO Metadata (JSON-LD)
+### Example AIAO Metadata with Schema.org (JSON-LD)
 ```json
 {
-    "@context": "https://aiao.org/context",
-    "@type": "AIAOEntity",
+    "@context": ["https://aiao.org/context", "https://schema.org"],
+    "@type": "LocalBusiness",
     "name": "TechGizmo Repair Shop",
     "description": "An AI-friendly tech repair shop",
-    "contact": {
-        "phone": "+1-555-123-4567",
-        "email": "support@techgizmo.com",
-        "website": "https://techgizmo.com"
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Tech Street",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10001",
+        "addressCountry": "US"
     },
-    "services": [
+    "telephone": "+1-555-123-4567",
+    "email": "support@techgizmo.com",
+    "url": "https://techgizmo.com",
+    "openingHours": "Mo-Fr 09:00-18:00, Sa 10:00-16:00",
+    "potentialAction": [
         {
-            "@type": "AIAction",
-            "name": "Get Business Hours",
-            "endpoint": "/aiao/hours",
-            "methods": ["GET"]
+            "@type": "ReserveAction",
+            "name": "Schedule Appointment",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://techgizmo.com/aiao/schedule",
+                "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"],
+                "httpMethod": "POST"
+            }
         }
     ]
 }
 ```
 
+## How It Works
+1. AIAO-optimized websites expose structured metadata at `/aiao/metadata`.
+2. AI agents query this metadata to discover available actions.
+3. Automation happens as AI agents execute tasks via defined AIAO endpoints.
+
 ## Get Started
-### Implement AIAO on Your Website (Coming Soon)
+### Implement AIAO on Your Website
 Add an `/aiao/metadata` endpoint with structured JSON-LD data. Refer to the [AIAO API Starter Guide](https://github.com/OpenAIAO/docs) for setup instructions.
 
-### Build an AI Agent that Uses AIAO (Coming Soon)
+### Build an AI Agent that Uses AIAO
 Develop an AI assistant that reads AIAO metadata and automates tasks. Refer to the [Python AI Agent Example](https://github.com/OpenAIAO/ai-agent) for guidance.
 
 ### Contribute to the Open Standard
 AIAO is a community-driven initiative. Join the discussion and contribute to improving the standard on GitHub.
 
 ## Join the Movement
-Website: [https://openaiao.org](https://openaiao.org)  
+Website (coming soon):: [https://openaiao.org](https://openaiao.org)  
 GitHub: [https://github.com/OpenAIAO](https://github.com/OpenAIAO)  
-X (coming soon): [https://x.com/openaiao](https://x.com/openaiao)  
+X (coming soon): [https://twitter.com/openaiao](https://twitter.com/openaiao)  
 
 ## License
 AIAO is open-source under the Apache 2.0 License. Contributions are welcome.
