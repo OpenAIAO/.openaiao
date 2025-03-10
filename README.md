@@ -53,7 +53,7 @@ OpenAIAO leverages [Schema.org](https://schema.org/) to ensure compatibility wit
 ```
 
 ## How It Works
-1. OpenAIAO-optimized websites expose structured metadata at `/openaiao/metadata`.
+1. OpenAIAO-optimized websites expose structured metadata at `/.well-known/openaiao/index.json`.
 2. AI agents query this metadata to discover available actions.
 3. Automation happens as AI agents execute tasks via defined AIAO endpoints.
 
