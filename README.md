@@ -29,7 +29,7 @@ Getting Started
     
 *   **[License](LICENSE)** – Details on how OpenAIAO is licensed.
     
-*   **[Changelog](CHANGELOG.md)** – Track changes and releases in OpenAIAO.
+*   **[Change Log](CHANGE_LOG.md)** – Track changes and releases in OpenAIAO.
     
 
 Repository Structure
