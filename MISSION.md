@@ -11,7 +11,7 @@ AI is **revolutionizing** how businesses and consumers interact, but AI agents t
 
 OpenAIAO is **the missing piece**—a **structured, universal, and machine-readable format** that allows AI agents to seamlessly **discover, interpret, and execute** business operations across industries.
 
-## **An Analogy: The AI-Friendly Web**
+## **The AI-Friendly Web**
 Imagine if **every business spoke a universal AI language**, just like **QR codes enable instant scanning of product information** or **APIs allow different systems to exchange data effortlessly**. OpenAIAO creates that standardized **"QR code for AI agents"**, allowing businesses to expose services, availability, inventory, and workflows in an AI-friendly manner.
 
 ## **What Makes OpenAIAO Different?**
