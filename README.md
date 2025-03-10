@@ -59,7 +59,7 @@ OpenAIAO leverages [Schema.org](https://schema.org/) to ensure compatibility wit
 
 ## Get Started
 ### Implement OpenAIAO on Your Website
-Add an `/openaiao/metadata` endpoint with structured JSON-LD data. Refer to the [OpenAIAO API Starter Guide](https://github.com/OpenAIAO/docs) for setup instructions.
+Add an `/.well-known/openaiao/index.json` endpoint with structured JSON-LD data. Refer to the [OpenAIAO API Starter Guide](https://github.com/OpenAIAO/docs) for setup instructions.
 
 ### Build an AI Agent that Uses AIAO
 Develop an AI assistant that reads AIAO metadata and automates tasks. Refer to the [Python AI Agent Example](https://github.com/OpenAIAO/ai-agent) for guidance.
