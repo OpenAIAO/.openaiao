@@ -9,7 +9,7 @@ OpenAIAO - AI Agent Optimization
 The Open Standard for AI Agent Optimization
 -------------------------------------------
 
-OpenAIAO (AI Agent Optimization) is a revolutionary open standard that enables AI agents to seamlessly interact with websites and services using structured metadata. Just like SEO helps search engines understand web content, OpenAIAO makes the internet AI-friendly by providing a standardized protocol for AI-driven automation.
+OpenAIAO (Open AI Agent Optimization) is a revolutionary open standard that enables AI agents to seamlessly interact with websites and services using structured metadata. Just like SEO helps search engines understand web content, OpenAIAO makes the internet AI-friendly by providing a standardized protocol for AI-driven automation.
 
 **Read our full** **[Mission Statement](MISSION.md)** **to understand our vision and goals.**
 
