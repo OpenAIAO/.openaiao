@@ -7,7 +7,7 @@ At **OpenAIAO**, our mission is to establish a universal **AI Agent Optimization
 We believe that just as **SEO (Search Engine Optimization) enables websites to communicate effectively with search engines**, **OpenAIAO will enable businesses to communicate with AI agents**, unlocking a new era of intelligent automation and interoperability.
 
 ## **Why OpenAIAO?**
-AI is **revolutionizing** how businesses and consumers interact, but AI agents today struggle to extract structured, actionable data from the web. Existing standards like **SEO (Search Engine Optimization), RSS (content syndication), FHIR (healthcare interoperability), and EDI (electronic data interchange)** serve specific niches, but **none are designed for AI-native interactions**.
+AI is revolutionizing how businesses and consumers interact, but AI agents today incur additional overhead when processing human-structured data to extract actionable insights. Existing standards like SEO (Search Engine Optimization), RSS (content syndication), FHIR (healthcare interoperability), and EDI (electronic data interchange) serve specific niches and provide some level of machine readability, but they were not originally designed with an **AI-First approach** to optimize interactions for AI-native systems.
 
 OpenAIAO is **the missing piece**—a **structured, universal, and machine-readable format** that allows AI agents to seamlessly **discover, interpret, and execute** business operations across industries.
 
